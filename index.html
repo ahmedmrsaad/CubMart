@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CubMart | Home Page</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+        <!-- Project CSS -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <!-- Poppins Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Navbar (First Section) -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Cub<span>Mart</span></a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#mobiles">Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#why-shop">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle"
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                                Shop
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="#headphones">Headphones</a></li>
+                                <li><a class="dropdown-item" href="#hardware-accessories">Hardware Accessories</a></li>
+                                <li><a class="dropdown-item" href="#mobiles">Mobiles</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Main Section -->
+        <main class="hero">
+            <div class="background-img">
+                <img src="img/background2.png" alt="background2">
+            </div>
+            <div class="box content">
+                <h1>
+                    Everything you need,<br>
+                    All in one Place
+                </h1>
+                <p>Discover thousands of premium tech products at unbeatable prices.</p>
+                <a href="#featured-products" class="browse_products">Browse Products</a>
+            </div>
+        </main>
+        <!-- Why shop with us section -->
+        <section id="why-shop" class="why-shop">
+            <div class="container">
+                <h2>Why Shop with Us?</h2>
+                <div class="animation cards">
+                    <div class="card">
+                        <i class="bi bi-1-circle"></i>
+                        <h3>Free Shipping</h3>
+                        <p>Enjoy free shipping on all orders over $50.</p>
+                    </div>
+                    <div class="card">
+                        <i class="bi bi-2-circle"></i>
+                        <h3>Quality Guaranteed</h3>
+                        <p>All our products are guaranteed for quality and performance.</p>
+                    </div>
+                    <div class="card">
+                        <i class="bi bi-3-circle"></i>
+                        <h3>Easy Returns</h3>
+                        <p>Not satisfied? Return it within 30 days.</p>
+                    </div>
+                    <div class="card">
+                        <i class="bi bi-4-circle"></i>
+                        <h3>24/7 Support</h3>
+                        <p>Our customer service is always here to help.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Categories -->
+        <section id="categories" class="categories">
+            <a href="#headphones">Headphones</a>
+            <a href="#hardware-accessories">Hardware Accessories</a>
+            <a href="#mobiles">Mobiles</a>
+        </section>
+        <!-- Featured Products -->
+        <section id="featured-products" class="featured-products">
+            <div class="animation" id="headphones">
+                <h2>Headphones</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-content">
+                            <img src="img/headphones/headphone1.avif" alt="Sony WH-1000XM5 Headphones">
+                            <h3>Sony WH-1000XM5</h3>
+                            <p>$299</p>
+                            <button class="product-details btn btn-primary"> <a href="#sony-wh-1000xm5">Product Details</a></button>
+                        </div>
+                        <span class="badge bestseller">Best Seller</span>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-content">
+                            <img src="img/headphones/headphone2.jfif" alt="JBL Tune 760NC Headphones">
+                            <h3>JBL Tune 760NC</h3>
+                            <p>$99</p>
+                            <button class="product-details btn btn-primary"> <a href="#jbl-tune-760nc">Product Details</a></button>
+                        </div>
+                        <span class="badge new">New</span>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-content">
+                            <img src="img/headphones/headphone3.jfif" alt="Anker Soundcore Q30">
+                            <h3>Anker Soundcore Q30</h3>
+                            <p>$79</p>
+                            <button class="product-details btn btn-primary"> <a href="#anker-soundcore-q30">Product Details</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="hardware-accessories">
+                <h2>Hardware Accessories</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-content">
+                            <img src="img/hardware-accessories/mouse.jfif" alt="Logitech G502 Gaming Mouse">
+                            <h3>Logitech G502 Gaming Mouse</h3>
+                            <p>$299</p>
+                            <button class="product-details btn btn-primary"> <a href="#logitech-g502-gaming-mouse">Product Details</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-content">
+                            <img src="img/hardware-accessories/keyboard.jfif" alt="Redragon K552 Mechanical Keyboard">
+                            <h3>Redragon K552 Mechanical Keyboard</h3>
+                            <p>$120 <del>$150</del></p>
+                            <button class="product-details btn btn-primary"> <a href="#redragon-k552-mechanical-keyboard">Product Details</a></button>
+                        </div>
+                        <span class="badge discount">20% Off</span>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-content">
+                            <img src="img/hardware-accessories/flash.jpg" alt="kingston 32gb usb flash drive">
+                            <h3>kingston 32gb usb flash drive</h3>
+                            <p>$50</p>
+                            <button class="product-details btn btn-primary"><a href="#kingston-32gb-usb-flash-drive">Product Details</a></button>
+                        </div>
+                        <span class="badge bestseller">Best Seller</span>
+                    </div>
+                </div>
+            </div>
+            <div class="animation" id="mobiles">
+                <h2>Mobiles</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-content">
+                            <img src="img/mobiles/iphone16.jfif" alt="iPhone 16">
+                            <h3>iPhone 16</h3>
+                            <p>$299</p>
+                            <button class="product-details btn btn-primary"> <a href="#iphone-16">Product Details</a></button>
+                        </div>
+                        <span class="badge bestseller">Best Seller</span>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-content">
+                            <img src="img/mobiles/SamsungGalaxyS25.jfif" alt="Samsung Galaxy S25">
+                            <h3>Samsung Galaxy S25</h3>
+                            <p>$99</p>
+                            <button class="product-details btn btn-primary"> <a href="#samsung-galaxy-s25">Product Details</a></button>
+                        </div>
+                        <span class="badge new">New</span>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-content">
+                            <img src="img/mobiles/GooglePixel9.jfif" alt="Google Pixel 9">
+                            <h3>Google Pixel 9</h3>
+                            <p>$79</p>
+                            <button class="product-details btn btn-primary"> <a href="#google-pixel-9">Product Details</a></button>
+                        </div>
+                        <span class="badge discount">20% Off</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Products Spotlight -->
+        <section class="animation products-spotlight">
+            <div class="spotlight-content">
+                <h2>Product Spotlight</h2>
+                <div id="sony-wh-1000xm5" class="spotlight-product">
+                    <img src="img/headphones/headphone1.avif" alt="Sony WH-1000XM5 Headphones">
+                    <div class="spotlight-details">
+                        <h3>Sony WH-1000XM5</h3>
+                        <p>Premium wireless headphones with industry-leading noise cancellation.</p>
+                        <p>$299</p>
+                    </div>
+                </div>
+                <div id="jbl-tune-760nc" class="spotlight-product">
+                    <img src="img/headphones/headphone2.jfif" alt="JBL Tune 760NC Headphones">
+                    <div class="spotlight-details">
+                        <h3>JBL Tune 760NC</h3>
+                        <p>Comfortable wireless headphones with powerful bass and long battery life.</p>
+                        <p>$99</p>
+                    </div>
+                </div>
+                <div id="anker-soundcore-q30" class="spotlight-product">
+                    <img src="img/headphones/headphone3.jfif" alt="Anker Soundcore Q30">
+                    <div class="spotlight-details">
+                        <h3>Anker Soundcore Q30</h3>
+                        <p>Portable Bluetooth headphones with clear sound quality.</p>
+                        <p>$79</p>
+                    </div>
+                </div>
+                <div id="iphone-16" class="spotlight-product">
+                    <img src="img/mobiles/iphone16.jfif" alt="iPhone 16">
+                    <div class="spotlight-details">
+                        <h3>iPhone 16</h3>
+                        <p>Powerful smartphone with advanced camera features.</p>
+                        <p>$299</p>
+                    </div>
+                </div>
+                <div id="samsung-galaxy-s25" class="spotlight-product">
+                    <img src="img/mobiles/SamsungGalaxyS25.jfif" alt="Samsung Galaxy S25">
+                    <div class="spotlight-details">
+                        <h3>Samsung Galaxy S25</h3>
+                        <p>Advanced Android smartphone with a stunning display.</p>
+                        <p>$99</p>
+                    </div>
+                </div>
+                <div id="google-pixel-9" class="spotlight-product">
+                    <img src="img/mobiles/GooglePixel9.jfif" alt="Google Pixel 9">
+                    <div class="spotlight-details">
+                        <h3>Google Pixel 9</h3>
+                        <p>Powerful Android smartphone with an excellent camera.</p>
+                        <p>$79</p>
+                    </div>
+                </div>
+                <div id="logitech-g502-gaming-mouse" class="spotlight-product">
+                    <img src="img/hardware-accessories/mouse.jfif" alt="Logitech G502 Gaming Mouse">
+                    <div class="spotlight-details">
+                        <h3>Logitech G502 Gaming Mouse</h3>
+                        <p>High-performance gaming mouse with customizable buttons.</p>
+                        <p>$299</p>
+                    </div>
+                </div>
+                <div id="redragon-k552-mechanical-keyboard" class="spotlight-product">
+                    <img src="img/hardware-accessories/keyboard.jfif" alt="Redragon K552 Mechanical Keyboard">
+                    <div class="spotlight-details">
+                        <h3>Redragon K552 Mechanical Keyboard</h3>
+                        <p>Responsive mechanical keyboard with RGB lighting.</p>
+                        <p>$120 <del>$150</del></p>
+                    </div>
+                </div>
+                <div id="kingston-32gb-usb-flash-drive" class="spotlight-product">
+                    <img src="img/hardware-accessories/flash.jpg" alt="kingston 32gb usb flash drive">
+                    <div class="spotlight-details">
+                        <h3>kingston 32gb usb flash drive</h3>
+                        <p>High-capacity USB flash drive for fast data transfer.</p>
+                        <p>$50</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Reviews -->
+        <section id="reviews" class="animation reviews">
+            <h2>Customer Reviews</h2>
+            <div class="reviews-container">
+                <div class="review-card">
+                    <h3>Sarah Johnson</h3>
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                    <p>
+                        Excellent quality and super fast delivery. Highly recommended!
+                    </p>
+                </div>
+                <div class="review-card">
+                    <h3>Michael Brown</h3>
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                    <p>
+                        The product matched the description perfectly. Great experience!
+                    </p>
+                </div>
+                <div class="review-card">
+                    <h3>Emily Davis</h3>
+                    <div class="stars">
+                        ★★★★☆
+                    </div>
+                    <p>
+                        Very good value for the price. Will definitely shop again.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Newsletter -->
+        <section id="contact" class="newsletter">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Stay updated with our latest products and special offers.</p>
+
+            <form>
+                <input type="text" placeholder="Your Name" required>
+
+                <input type="email" placeholder="Your Email" required>
+
+                <textarea placeholder="Message" rows="5"></textarea>
+
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <div class="footer-container">
+
+                <div class="footer-logo">
+                    <h2>CubMart</h2>
+                    <p>Your favorite online shopping destination.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <a href="#">Home</a>
+                    <a href="#featured-products">Products</a>
+                    <a href="#categories">Categories</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p>Email: support@shopease.com</p>
+                    <p>Phone: +20 100 123 4567</p>
+                </div>
+
+            </div>
+
+            <div class="copyright">
+                © 2026 ShopEase. All Rights Reserved.
+            </div>
+        </footer>
+        <!--Simple Animation Javascript Code -->
+        <script>
+            const animations = [
+                "leftToRight",
+                "topToBottom"
+            ];
+
+            const boxes = document.querySelectorAll(".animation");
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+
+                        const random =
+                            animations[Math.floor(Math.random() * animations.length)];
+
+                        entry.target.classList.add(random);
+
+                        observer.unobserve(entry.target);
+                    }
+                });
+            });
+
+            boxes.forEach(box => observer.observe(box));
+        </script>
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
